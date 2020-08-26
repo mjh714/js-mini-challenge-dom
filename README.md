@@ -26,6 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
+i moved the "script" tag for index.js down and interpolated header and used ".textContent" to see what was there
 
 ```
 
@@ -35,6 +36,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
+i used header.style.color
 
 ```
 
@@ -57,6 +59,7 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
+i created a func that created a new html eles each time i itterated through the arr  
 
 ```
 
@@ -68,5 +71,5 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+i found the player by their data-number and just added .remove()
 ```
